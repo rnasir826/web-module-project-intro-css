@@ -1,8 +1,72 @@
-url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     max-width: 100%;
     border: 1px solid blue;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    font-family: 'Roboto Mono', chelsea market;
+}
+
+.but1 {
+    display: inline-block;
+    margin: 1% 8%;
+    border-radius: 15px;
+    width: 8%;
+    text-align: center;
+    background-color: #FF764E;
+    color: white;
+    text-decoration: none;
+}
+
+.but2 {
+    display: inline-block;
+    margin: 1% 8%;
+    border-radius: 15px;
+    width: 10%;
+    text-align: center;
+    color: white;
+    background-color: #5ED3EB;
+    text-decoration: none;
+}
+
+.but3 {
+    display: inline-block;
+    margin: 1% 8%;
+    border-radius: 15px;
+    width: 8%;
+    text-align: center;
+    background-color: #FFCD69;
+    color: white;
+    text-decoration: none;
+}
+
+#title {
+    font-family: 'Chelsea Market', roboto mono;
+    text-align: center;
+    display: inline-block;
+    margin: 3%;
+    width: 28%
+}
+
+h4 {
+    color: black;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.head img {
+    width: 10%;
+    margin-left: 12%;
+    margin-top: 1%;
+    border-radius: 50%;
 }
