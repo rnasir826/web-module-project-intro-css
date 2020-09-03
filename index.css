@@ -23,7 +23,7 @@ body {
     margin: 1% 8%;
     border-radius: 15px;
     width: 8%;
-    text-align: center;
+    vertical-align: middle;
     background-color: #FF764E;
     color: white;
     text-decoration: none;
@@ -34,7 +34,7 @@ body {
     margin: 1% 8%;
     border-radius: 15px;
     width: 10%;
-    text-align: center;
+    vertical-align: middle;
     color: white;
     background-color: #5ED3EB;
     text-decoration: none;
@@ -45,7 +45,7 @@ body {
     margin: 1% 8%;
     border-radius: 15px;
     width: 8%;
-    text-align: center;
+    vertical-align: middle;
     background-color: #FFCD69;
     color: white;
     text-decoration: none;
