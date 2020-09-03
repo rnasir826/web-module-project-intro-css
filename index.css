@@ -2,13 +2,14 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     max-width: 100%;
-    border: 1px solid blue;
 }
 
 html {
     font-size: 62.5%;
+    padding: 5%;
+    border: 100% solid;
 }
 
 body {
@@ -50,23 +51,52 @@ body {
     text-decoration: none;
 }
 
-#title {
-    font-family: 'Chelsea Market', roboto mono;
-    text-align: center;
-    display: inline-block;
-    margin: 3%;
-    width: 28%
-}
 
-h4 {
-    color: black;
-    display: inline-block;
-    width: 100rem;
-}
+/*work on the header section*/
 
 .head img {
-    width: 10%;
-    margin-left: 12%;
-    margin-top: 1%;
+    width: 15%;
+    margin: 5% 5% 0 8%;
     border-radius: 50%;
+    /*display: inline;*/
+}
+
+header h1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    font-family: 'Chelsea Market', roboto mono;
+    font-size: 200%;
+}
+
+header h4 {
+    display: block;
+    text-align: center;
+    font-size: 90%;
+}
+
+.bigContainer img {
+    width: 10%;
+    margin-left: 45%;
+}
+
+#paragraphs {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #DDB9A3;
+}
+
+.bigContainer p {
+    margin: 0 40%;
+    font-size: 50%;
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+    margin-top: 5%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center top;
 }
