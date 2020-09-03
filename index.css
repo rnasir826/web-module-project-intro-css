@@ -61,7 +61,7 @@ body {
 h4 {
     color: black;
     display: inline-block;
-    font-size: 10px;
+    width: 100rem;
 }
 
 .head img {
