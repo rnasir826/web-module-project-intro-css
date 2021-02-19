@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    padding: 5%;
+    border: 100% solid;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    font-family: 'Roboto Mono', chelsea market;
+}
+
+.but1 {
+    display: inline-block;
+    border-radius: 15px;
+    width: 10%;
+    vertical-align: middle;
+    background-color: #FF764E;
+    color: white;
+    text-decoration: none;
+    padding: 1% 0;
+}
+
+.but2 {
+    display: inline-block;
+    border-radius: 15px;
+    width: 10%;
+    vertical-align: middle;
+    color: white;
+    background-color: #5ED3EB;
+    text-decoration: none;
+}
+
+.but3 {
+    display: inline-block;
+    border-radius: 15px;
+    width: 8%;
+    vertical-align: middle;
+    background-color: #FFCD69;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*work on the header section*/
+
+.head img {
+    width: 15%;
+    margin: 5% 5% 0 8%;
+    border-radius: 50%;
+    /*display: inline;*/
+}
+
+header h1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    font-family: 'Chelsea Market', roboto mono;
+    font-size: 200%;
+}
+
+header h4 {
+    display: block;
+    text-align: center;
+    font-size: 90%;
+}
+
+.bigContainer img {
+    width: 10%;
+    margin-left: 45%;
+}
+
+#paragraphs {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #DDB9A3;
+}
+
+.bigContainer p {
+    margin: 0 40%;
+    font-size: 50%;
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+    margin-top: 5%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center top;
+}
